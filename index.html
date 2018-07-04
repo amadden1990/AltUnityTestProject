@@ -5,13 +5,43 @@ https://sdk.altvr.com/libs/altspace.js/2.9.0/altspace.min.js"></script></head>
 <body>
 <a-scene altspace="fullspace: true">
 
-<a-entity id="baseFloor " geometry="primitive: plane; width:4.629699; height:10.02516;"position="-0.006 2.281 29.98" rotation="-180 0 90" material="shader: 
-standard; transparent: false; color: #FFFFFF;  side: double; " shadow="receive: 
+<a-entity id=" " geometry="primitive: cylinder; height:0.01263971; radius:1.359609;"position="0.238 0.043 20.944" rotation="0 0 0" material="shader: 
+standard; transparent: false; color: #FFFFFF; src: textures\dirt.jpg; repeat: 2 2; offset: 0 0;  side: front; " shadow="receive: 
+false; cast: false;" ></a-entity>
+
+
+<a-entity id=" " geometry="primitive: sphere; radius:1.099449;"position="0.249 3.169449 20.93" rotation="0 0 0" material="shader: 
+standard; transparent: false; color: #FFFFFF; src: textures\leaf.png; repeat: 3 3; offset: 0 0;  side: front; " shadow="receive: 
+false; cast: false;" ></a-entity>
+
+
+<a-entity id=" " geometry="primitive: cylinder; n-mesh-collider='type: object' height:2.336866; radius:0.1043045;"position="0.25 1.171 20.93" rotation="0 0 0" material="shader: 
+standard; transparent: false; color: #FFB579; src: textures\bark.jpg; repeat: 1 3.07; offset: 0 0;  side: front; " shadow="receive: 
+false; cast: false;" ></a-entity>
+
+
+<a-entity id=" " geometry="primitive: cylinder; height:0.01263971; radius:1.359609;"position="0.238 0.043 12.455" rotation="0 0 0" material="shader: 
+standard; transparent: false; color: #FFFFFF; src: textures\dirt.jpg; repeat: 2 2; offset: 0 0;  side: front; " shadow="receive: 
+false; cast: false;" ></a-entity>
+
+
+<a-entity id=" " geometry="primitive: sphere; radius:1.099449;"position="0.249 3.169449 12.441" rotation="0 0 0" material="shader: 
+standard; transparent: false; color: #FFFFFF; src: textures\leaf.png; repeat: 3 3; offset: 0 0;  side: front; " shadow="receive: 
+false; cast: false;" ></a-entity>
+
+
+<a-entity id=" " geometry="primitive: cylinder; height:2.336866; radius:0.1043045;"position="0.25 1.171 12.441" rotation="0 0 0" material="shader: 
+standard; transparent: false; color: #FFB579; src: textures\bark.jpg; repeat: 1 3.07; offset: 0 0;  side: front; " shadow="receive: 
+false; cast: false;" ></a-entity>
+
+
+<a-entity id=" " geometry="primitive: plane; n-mesh-collider='type: environment' width:10.01756; height:3.112942;"position="-0.015 1.598 29.98" rotation="-180 0 5.293396E-05" material="shader: 
+standard; transparent: false; color: #FFFFFF; src: textures\logoWall.jpg; repeat: 1 1; offset: 0 0;  side: double; " shadow="receive: 
 false; cast: false;" ></a-entity>
 
 
 <a-entity id="baseFloor " geometry="primitive: plane; width:10; height:2.540847;"position="0 3.144 28.741" rotation="90 0 0" material="shader: 
-standard; transparent: false; color: #FFFFFF;  side: double; " shadow="receive: 
+standard; transparent: false; color: #A6A6A6;  side: double; " shadow="receive: 
 false; cast: false;" ></a-entity>
 
 
@@ -26,191 +56,191 @@ false; cast: false;" ></a-entity>
 
 
 <a-entity id=" " geometry="primitive: box; width:0.2122874; height:3.218044; depth:0.1609988;"position="-5.02 1.609 14.129" rotation="0 0 0" material="shader: 
-standard; transparent: false; color: #FFFFFF;  side: front; " shadow="receive: 
+standard; transparent: false; color: #FFFFFF; src: textures\wall.jpg; repeat: 1 10; offset: 0 0;  side: front; " shadow="receive: 
 false; cast: false;" ></a-entity>
 
 
 <a-entity id=" " geometry="primitive: box; width:0.2122874; height:0.8529117; depth:2.198967;"position="-5.02 2.7916 12.986" rotation="0 0 0" material="shader: 
-standard; transparent: false; color: #FFFFFF;  side: front; " shadow="receive: 
+standard; transparent: false; color: #FFFFFF; src: textures\wall.jpg; repeat: 6 2; offset: 0 0;  side: front; " shadow="receive: 
 false; cast: false;" ></a-entity>
 
 
 <a-entity id=" " geometry="primitive: plane; width:3.169257; height:3.176359;"position="-5.024 1.5838 10.297" rotation="-180 90 270" material="shader: 
-standard; transparent: false; color: #FFFFFF;  side: double; " shadow="receive: 
+standard; transparent: false; color: #FFFFFF; src: textures\windowTexture.png; repeat: 1 1; offset: 0 0;  side: double; " shadow="receive: 
 false; cast: false;" ></a-entity>
 
 
 <a-entity id=" " geometry="primitive: box; width:0.2122874; height:3.218044; depth:0.1609988;"position="-5.02 1.609 20.477" rotation="0 0 0" material="shader: 
-standard; transparent: false; color: #FFFFFF;  side: front; " shadow="receive: 
+standard; transparent: false; color: #FFFFFF; src: textures\wall.jpg; repeat: 1 10; offset: 0 0;  side: front; " shadow="receive: 
 false; cast: false;" ></a-entity>
 
 
 <a-entity id=" " geometry="primitive: box; width:0.2122874; height:3.218044; depth:0.1609988;"position="-5.02 1.609 8.624" rotation="0 0 0" material="shader: 
-standard; transparent: false; color: #FFFFFF;  side: front; " shadow="receive: 
+standard; transparent: false; color: #FFFFFF; src: textures\wall.jpg; repeat: 1 10; offset: 0 0;  side: front; " shadow="receive: 
 false; cast: false;" ></a-entity>
 
 
 <a-entity id=" " geometry="primitive: plane; width:3.169257; height:3.176359;"position="-5.024 1.5838 1.612" rotation="-180 90 270" material="shader: 
-standard; transparent: false; color: #FFFFFF;  side: double; " shadow="receive: 
+standard; transparent: false; color: #FFFFFF; src: textures\windowTexture.png; repeat: 1 1; offset: 0 0;  side: double; " shadow="receive: 
 false; cast: false;" ></a-entity>
 
 
 <a-entity id=" " geometry="primitive: plane; width:3.169257; height:3.176359;"position="-5.024 1.5838 15.645" rotation="-180 90 270" material="shader: 
-standard; transparent: false; color: #FFFFFF;  side: double; " shadow="receive: 
+standard; transparent: false; color: #FFFFFF; src: textures\windowTexture.png; repeat: 1 1; offset: 0 0;  side: double; " shadow="receive: 
 false; cast: false;" ></a-entity>
 
 
 <a-entity id=" " geometry="primitive: box; width:0.2122874; height:3.218044; depth:0.1609988;"position="-5.02 1.609 11.806" rotation="0 0 0" material="shader: 
-standard; transparent: false; color: #FFFFFF;  side: front; " shadow="receive: 
+standard; transparent: false; color: #FFFFFF; src: textures\wall.jpg; repeat: 1 10; offset: 0 0;  side: front; " shadow="receive: 
 false; cast: false;" ></a-entity>
 
 
 <a-entity id=" " geometry="primitive: box; width:0.2122874; height:3.218044; depth:0.1609988;"position="-5.02 1.609 22.8" rotation="0 0 0" material="shader: 
-standard; transparent: false; color: #FFFFFF;  side: front; " shadow="receive: 
+standard; transparent: false; color: #FFFFFF; src: textures\wall.jpg; repeat: 1 10; offset: 0 0;  side: front; " shadow="receive: 
 false; cast: false;" ></a-entity>
 
 
 <a-entity id=" " geometry="primitive: plane; width:3.169257; height:7.277868;"position="-5.024 1.5838 26.3668" rotation="-180 90 270" material="shader: 
-standard; transparent: false; color: #FFFFFF;  side: double; " shadow="receive: 
+standard; transparent: false; color: #FFFFFF; src: textures\windowTexture.png; repeat: 1 2; offset: 0 0;  side: double; " shadow="receive: 
 false; cast: false;" ></a-entity>
 
 
 <a-entity id=" " geometry="primitive: box; width:0.2122874; height:3.218044; depth:0.1609988;"position="-5.02 1.609 17.295" rotation="0 0 0" material="shader: 
-standard; transparent: false; color: #FFFFFF;  side: front; " shadow="receive: 
+standard; transparent: false; color: #FFFFFF; src: textures\wall.jpg; repeat: 1 10; offset: 0 0;  side: front; " shadow="receive: 
 false; cast: false;" ></a-entity>
 
 
 <a-entity id=" " geometry="primitive: plane; width:3.169257; height:3.176359;"position="-5.024 1.5838 18.968" rotation="-180 90 270" material="shader: 
-standard; transparent: false; color: #FFFFFF;  side: double; " shadow="receive: 
+standard; transparent: false; color: #FFFFFF; src: textures\windowTexture.png; repeat: 1 1; offset: 0 0;  side: double; " shadow="receive: 
 false; cast: false;" ></a-entity>
 
 
 <a-entity id=" " geometry="primitive: box; width:0.2122874; height:0.8529117; depth:2.198967;"position="-5.02 2.7916 21.657" rotation="0 0 0" material="shader: 
-standard; transparent: false; color: #FFFFFF;  side: front; " shadow="receive: 
+standard; transparent: false; color: #FFFFFF; src: textures\wall.jpg; repeat: 6 2; offset: 0 0;  side: front; " shadow="receive: 
 false; cast: false;" ></a-entity>
 
 
 <a-entity id=" " geometry="primitive: box; width:0.2122874; height:0.8529117; depth:2.198967;"position="-5.02 2.7916 4.301" rotation="0 0 0" material="shader: 
-standard; transparent: false; color: #FFFFFF;  side: front; " shadow="receive: 
+standard; transparent: false; color: #FFFFFF; src: textures\wall.jpg; repeat: 6 2; offset: 0 0;  side: front; " shadow="receive: 
 false; cast: false;" ></a-entity>
 
 
 <a-entity id=" " geometry="primitive: box; width:0.2122874; height:3.218044; depth:0.1609988;"position="-5.02 1.609 5.444" rotation="0 0 0" material="shader: 
-standard; transparent: false; color: #FFFFFF;  side: front; " shadow="receive: 
+standard; transparent: false; color: #FFFFFF; src: textures\wall.jpg; repeat: 1 10; offset: 0 0;  side: front; " shadow="receive: 
 false; cast: false;" ></a-entity>
 
 
 <a-entity id=" " geometry="primitive: box; width:0.2122874; height:3.218044; depth:0.1609988;"position="-5.02 1.609 3.121" rotation="0 0 0" material="shader: 
-standard; transparent: false; color: #FFFFFF;  side: front; " shadow="receive: 
+standard; transparent: false; color: #FFFFFF; src: textures\wall.jpg; repeat: 1 10; offset: 0 0;  side: front; " shadow="receive: 
 false; cast: false;" ></a-entity>
 
 
 <a-entity id=" " geometry="primitive: plane; width:3.169257; height:3.176359;"position="-5.024 1.5838 6.96" rotation="-180 90 270" material="shader: 
-standard; transparent: false; color: #FFFFFF;  side: double; " shadow="receive: 
+standard; transparent: false; color: #FFFFFF; src: textures\windowTexture.png; repeat: 1 1; offset: 0 0;  side: double; " shadow="receive: 
 false; cast: false;" ></a-entity>
 
 
 <a-entity id=" " geometry="primitive: box; width:0.2122874; height:3.218044; depth:0.1609988;"position="4.999 1.609 22.8" rotation="0 0 0" material="shader: 
-standard; transparent: false; color: #FFFFFF;  side: front; " shadow="receive: 
+standard; transparent: false; color: #FFFFFF; src: textures\wall.jpg; repeat: 1 10; offset: 0 0;  side: front; " shadow="receive: 
 false; cast: false;" ></a-entity>
 
 
 <a-entity id=" " geometry="primitive: box; width:0.2122874; height:0.8529117; depth:2.198967;"position="4.999 2.7916 21.657" rotation="0 0 0" material="shader: 
-standard; transparent: false; color: #FFFFFF;  side: front; " shadow="receive: 
+standard; transparent: false; color: #FFFFFF; src: textures\wall.jpg; repeat: 6 2; offset: 0 0;  side: front; " shadow="receive: 
 false; cast: false;" ></a-entity>
 
 
 <a-entity id=" " geometry="primitive: plane; width:3.169257; height:3.176359;"position="4.995 1.5838 18.968" rotation="-180 270 270" material="shader: 
-standard; transparent: false; color: #FFFFFF;  side: double; " shadow="receive: 
+standard; transparent: false; color: #FFFFFF; src: textures\windowTexture.png; repeat: 1 1; offset: 0 0;  side: double; " shadow="receive: 
 false; cast: false;" ></a-entity>
 
 
 <a-entity id=" " geometry="primitive: box; width:0.2122874; height:3.218044; depth:0.1609988;"position="4.999 1.609 17.295" rotation="0 0 0" material="shader: 
-standard; transparent: false; color: #FFFFFF;  side: front; " shadow="receive: 
+standard; transparent: false; color: #FFFFFF; src: textures\wall.jpg; repeat: 1 10; offset: 0 0;  side: front; " shadow="receive: 
 false; cast: false;" ></a-entity>
 
 
 <a-entity id=" " geometry="primitive: plane; width:3.169257; height:7.277868;"position="4.995 1.5838 26.3668" rotation="-180 270 270" material="shader: 
-standard; transparent: false; color: #FFFFFF;  side: double; " shadow="receive: 
+standard; transparent: false; color: #FFFFFF; src: textures\windowTexture.png; repeat: 1 2; offset: 0 0;  side: double; " shadow="receive: 
 false; cast: false;" ></a-entity>
 
 
 <a-entity id=" " geometry="primitive: box; width:0.2122874; height:3.218044; depth:0.1609988;"position="4.999 1.609 20.477" rotation="0 0 0" material="shader: 
-standard; transparent: false; color: #FFFFFF;  side: front; " shadow="receive: 
+standard; transparent: false; color: #FFFFFF; src: textures\wall.jpg; repeat: 1 10; offset: 0 0;  side: front; " shadow="receive: 
 false; cast: false;" ></a-entity>
 
 
 <a-entity id=" " geometry="primitive: plane; width:3.169257; height:3.176359;"position="4.995 1.5838 10.297" rotation="-180 270 270" material="shader: 
-standard; transparent: false; color: #FFFFFF;  side: double; " shadow="receive: 
+standard; transparent: false; color: #FFFFFF; src: textures\windowTexture.png; repeat: 1 1; offset: 0 0;  side: double; " shadow="receive: 
 false; cast: false;" ></a-entity>
 
 
 <a-entity id=" " geometry="primitive: box; width:0.2122874; height:0.8529117; depth:2.198967;"position="4.999 2.7916 12.986" rotation="0 0 0" material="shader: 
-standard; transparent: false; color: #FFFFFF;  side: front; " shadow="receive: 
+standard; transparent: false; color: #FFFFFF; src: textures\wall.jpg; repeat: 6 2; offset: 0 0;  side: front; " shadow="receive: 
 false; cast: false;" ></a-entity>
 
 
 <a-entity id=" " geometry="primitive: box; width:0.2122874; height:3.218044; depth:0.1609988;"position="4.999 1.609 14.129" rotation="0 0 0" material="shader: 
-standard; transparent: false; color: #FFFFFF;  side: front; " shadow="receive: 
+standard; transparent: false; color: #FFFFFF; src: textures\wall.jpg; repeat: 1 10; offset: 0 0;  side: front; " shadow="receive: 
 false; cast: false;" ></a-entity>
 
 
 <a-entity id=" " geometry="primitive: box; width:0.2122874; height:3.218044; depth:0.1609988;"position="4.999 1.609 11.806" rotation="0 0 0" material="shader: 
-standard; transparent: false; color: #FFFFFF;  side: front; " shadow="receive: 
+standard; transparent: false; color: #FFFFFF; src: textures\wall.jpg; repeat: 1 10; offset: 0 0;  side: front; " shadow="receive: 
 false; cast: false;" ></a-entity>
 
 
 <a-entity id=" " geometry="primitive: plane; width:3.169257; height:3.176359;"position="4.995 1.5838 15.645" rotation="-180 270 270" material="shader: 
-standard; transparent: false; color: #FFFFFF;  side: double; " shadow="receive: 
+standard; transparent: false; color: #FFFFFF; src: textures\windowTexture.png; repeat: 1 1; offset: 0 0;  side: double; " shadow="receive: 
 false; cast: false;" ></a-entity>
 
 
 <a-entity id=" " geometry="primitive: box; width:0.2122874; height:3.218044; depth:0.1609988;"position="4.999 1.609 8.624" rotation="0 0 0" material="shader: 
-standard; transparent: false; color: #FFFFFF;  side: front; " shadow="receive: 
+standard; transparent: false; color: #FFFFFF; src: textures\wall.jpg; repeat: 1 10; offset: 0 0;  side: front; " shadow="receive: 
 false; cast: false;" ></a-entity>
 
 
 <a-entity id=" " geometry="primitive: plane; width:2.605909; height:30;"position="-3.761 3.14 15.012" rotation="90 0 0" material="shader: 
-standard; transparent: false; color: #FFFFFF;  side: front; " shadow="receive: 
+standard; transparent: false; color: #A6A6A6;  side: front; " shadow="receive: 
 false; cast: false;" ></a-entity>
 
 
 <a-entity id=" " geometry="primitive: sphere; radius:1.099449;"position="0.249 3.169449 5.12" rotation="0 0 0" material="shader: 
-standard; transparent: true; color: #FFFFFF; src: textures\leaf.png; repeat: 3 3; offset: 0 0;  side: front; " shadow="receive: 
+standard; transparent: false; color: #FFFFFF; src: textures\leaf.png; repeat: 3 3; offset: 0 0;  side: front; " shadow="receive: 
 false; cast: false;" ></a-entity>
 
 
 <a-entity id=" " geometry="primitive: box; width:0.2122874; height:0.8529117; depth:2.198967;"position="4.999 2.7916 4.301" rotation="0 0 0" material="shader: 
-standard; transparent: false; color: #FFFFFF;  side: front; " shadow="receive: 
+standard; transparent: false; color: #FFFFFF; src: textures\wall.jpg; repeat: 6 2; offset: 0 0;  side: front; " shadow="receive: 
 false; cast: false;" ></a-entity>
 
 
 <a-entity id=" " geometry="primitive: box; width:0.2122874; height:3.218044; depth:0.1609988;"position="4.999 1.609 3.121" rotation="0 0 0" material="shader: 
-standard; transparent: false; color: #FFFFFF;  side: front; " shadow="receive: 
+standard; transparent: false; color: #FFFFFF; src: textures\wall.jpg; repeat: 1 10; offset: 0 0;  side: front; " shadow="receive: 
 false; cast: false;" ></a-entity>
 
 
 <a-entity id=" " geometry="primitive: box; width:0.2122874; height:3.218044; depth:0.1609988;"position="4.999 1.609 5.444" rotation="0 0 0" material="shader: 
-standard; transparent: false; color: #FFFFFF;  side: front; " shadow="receive: 
+standard; transparent: false; color: #FFFFFF; src: textures\wall.jpg; repeat: 1 10; offset: 0 0;  side: front; " shadow="receive: 
 false; cast: false;" ></a-entity>
 
 
 <a-entity id=" " geometry="primitive: plane; width:3.169257; height:3.176359;"position="4.995 1.5838 6.96" rotation="-180 270 270" material="shader: 
-standard; transparent: false; color: #FFFFFF;  side: double; " shadow="receive: 
+standard; transparent: false; color: #FFFFFF; src: textures\windowTexture.png; repeat: 1 1; offset: 0 0;  side: double; " shadow="receive: 
 false; cast: false;" ></a-entity>
 
 
 <a-entity id=" " geometry="primitive: plane; width:2.54132; height:30;"position="3.731 3.15 15.012" rotation="90 0 0" material="shader: 
-standard; transparent: false; color: #FFFFFF;  side: front; " shadow="receive: 
+standard; transparent: false; color: #A6A6A6;  side: front; " shadow="receive: 
 false; cast: false;" ></a-entity>
 
 
 <a-entity id=" " geometry="primitive: plane; width:3.169257; height:3.176359;"position="4.995 1.5838 1.612" rotation="-180 270 270" material="shader: 
-standard; transparent: false; color: #FFFFFF;  side: double; " shadow="receive: 
+standard; transparent: false; color: #FFFFFF; src: textures\windowTexture.png; repeat: 1 1; offset: 0 0;  side: double; " shadow="receive: 
 false; cast: false;" ></a-entity>
 
 
-<a-entity id=" " geometry="primitive: cylinder; height:0.01263971; radius:1.359609;"position="0.238 0.02 5.134" rotation="0 0 0" material="shader: 
+<a-entity id=" " geometry="primitive: cylinder; height:0.01263971; radius:1.359609;"position="0.238 0.043 5.134" rotation="0 0 0" material="shader: 
 standard; transparent: false; color: #FFFFFF; src: textures\dirt.jpg; repeat: 2 2; offset: 0 0;  side: front; " shadow="receive: 
 false; cast: false;" ></a-entity>
 
@@ -350,7 +380,7 @@ standard; transparent: false; color: #FFFFFF; src: textures\carpet.jpg; repeat: 
 false; cast: false;" ></a-entity>
 
 
-<a-entity id="baseFloor " geometry="primitive: plane; width:10; height:30;"position="0 0.02 15.012" rotation="-90 0 0" material="shader: 
+<a-entity id="baseFloor " geometry="primitive: plane; width:10; height:30;"position="0 0.04 15.012" rotation="-90 0 0" material="shader: 
 standard; transparent: false; color: #FFFFFF; src: textures\tile.jpg; repeat: 15.5 40; offset: 0 0;  side: double; " shadow="receive: 
 false; cast: false;" ></a-entity>
 
