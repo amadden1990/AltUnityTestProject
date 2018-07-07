@@ -14,6 +14,22 @@ https://sdk.altvr.com/libs/altspace.js/2.9.0/altspace.min.js"></script></head>
 <img id="tile" src="textures\tile.jpg">
 </a-assets>
 
+<a-entity id=" " geometry="primitive: plane; width:2.864885; height:2.864886;" n-mesh-collider='type: environment' position="0 0.047 12.79" rotation="-90 0 0" material="shader: 
+standard; transparent: false; color: #FFFFFF;  side: double; " shadow="receive: 
+false; cast: false;" ><a-animation  attribute= "position"
+ delay=" 5000"
+ direction= "alternate"
+ dur=" 1000"
+ easing="ease-in-out-quad"
+
+ fill= "forwards"
+ from=" 0 0.047 12.79"
+ repeat=" indefinite"
+ to=" 0 4.61 12.79"
+></a-animation>
+
+</a-entity>
+
 <a-entity id=" " geometry="primitive: box; width:10.05822; height:3.133496; depth:0.01084091;" n-mesh-collider='type: environment' position="0 1.57 -13.06" rotation="8.679226E-05 -6.659429E-05 6.187987E-05" material="shader: 
 standard; transparent: false; color: #FFFFFF; src: #logoWall; repeat: 1 1; offset: 0 0;  side: front; " shadow="receive: 
 false; cast: false;" >
@@ -538,8 +554,6 @@ false; cast: false;" >
 standard; transparent: false; color: #FFFFFF; src: #wall; repeat: 1 10; offset: 0 0;  side: front; " shadow="receive: 
 false; cast: false;" >
 </a-entity>
-<a-entity position=" 0.01 0.5 13.62" n-portal='target-event: mall-second-floor'></a-entity>
-<a-entity id="mall-second-floor" position="0 5.11 15.76"><a-entity>
 
 </a-scene>
 </body>
