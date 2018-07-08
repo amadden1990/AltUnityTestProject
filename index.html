@@ -14,80 +14,12 @@ https://sdk.altvr.com/libs/altspace.js/2.9.0/altspace.min.js"></script></head>
 <img id="tile" src="textures\tile.jpg">
 </a-assets>
 
-<a-entity id=" " geometry="primitive: box; width:1.462707; height:7.712698; depth:0.1048829;" position="1.7314 3.896 11.3406" rotation="0 0 0" material="shader: 
-standard; transparent: false; color: #FFFFFF;  side: front; " shadow="receive: 
-false; cast: false;" >
-</a-entity>
-
-<a-entity id=" " geometry="primitive: box; width:1.462771; height:7.712698; depth:0.1048829;" position="-1.7312 3.896 11.3406" rotation="0 0 0" material="shader: 
-standard; transparent: false; color: #FFFFFF;  side: front; " shadow="receive: 
-false; cast: false;" >
-</a-entity>
-
-<a-entity id=" " geometry="primitive: box; width:1; height:2.805963; depth:0.06416049;" position="0.5 1.443 11.361" rotation="0 0 0" material="shader: 
-standard; transparent: false; color: #FFFFFF;  side: front; " shadow="receive: 
-false; cast: false;" ><a-animation  attribute= "position"
- delay=" 4000"
- direction= "alternate"
- dur=" 1000"
- easing="ease-in-out-quad"
-
- fill= "forwards"
- from=" -0.5 1.443 11.361"
- repeat=" indefinite"
- to=" -1.5 1.443 11.361"
-></a-animation>
-
-</a-entity>
-
-<a-entity id=" " geometry="primitive: box; width:1; height:2.805963; depth:0.06416049;" position="-0.5 1.443 11.361" rotation="0 0 0" material="shader: 
-standard; transparent: false; color: #FFFFFF;  side: front; " shadow="receive: 
-false; cast: false;" ><a-animation  attribute= "position"
- delay=" 4000"
- direction= "alternate"
- dur=" 1000"
- easing="ease-in-out-quad"
-
- fill= "forwards"
- from=" 0.5 1.443 11.361"
- repeat=" indefinite"
- to=" 1.5 1.443 11.361"
-></a-animation>
-
-</a-entity>
-
-<a-entity id=" " geometry="primitive: box; width:0.3427485; height:7.683063; depth:2.926896;" position="-2.29 3.876 12.853" rotation="0 0 0" material="shader: 
-standard; transparent: false; color: #FFFFFF;  side: front; " shadow="receive: 
-false; cast: false;" >
-</a-entity>
-
-<a-entity id=" " geometry="primitive: box; width:0.3427485; height:7.683063; depth:2.926896;" position="2.2896 3.876 12.853" rotation="0 0 0" material="shader: 
-standard; transparent: false; color: #FFFFFF;  side: front; " shadow="receive: 
-false; cast: false;" >
-</a-entity>
-
-<a-entity id=" " geometry="primitive: plane; width:4.169235; height:2.779216;" n-mesh-collider='type: environment' position="0 0.047 12.854" rotation="-90 0 0" material="shader: 
-standard; transparent: false; color: #FFFFFF;  side: double; " shadow="receive: 
-false; cast: false;" ><a-animation  attribute= "position"
- delay=" 10000"
- direction= "alternate"
- dur=" 1000"
- easing="ease-in-out-quad"
-
- fill= "forwards"
- from=" 0 0.047 12.854"
- repeat=" indefinite"
- to=" 0 4.61 12.79"
-></a-animation>
-
-</a-entity>
-
 <a-entity id=" " geometry="primitive: box; width:10.05822; height:3.133496; depth:0.01084091;" n-mesh-collider='type: environment' position="0 1.57 -13.06" rotation="8.679226E-05 -6.659429E-05 6.187987E-05" material="shader: 
 standard; transparent: false; color: #FFFFFF; src: #logoWall; repeat: 1 1; offset: 0 0;  side: front; " shadow="receive: 
 false; cast: false;" >
 </a-entity>
 
-<a-entity id="baseFloor " geometry="primitive: plane; width:10; height:2.540847; depth:1;" position="1.031152E-06 4.599999 -11.801" rotation="90 0 0" material="shader: 
+<a-entity id="baseFloor " geometry="primitive: plane; width:10; height:2.540847; depth:1;" n-mesh-collider='type: environment' position="1.031152E-06 4.599999 -11.801" rotation="90 0 0" material="shader: 
 standard; transparent: false; color: #FFFFFF; src: #carpet; repeat: 15.95 4; offset: 0 0;  side: double; " shadow="receive: 
 false; cast: false;" >
 </a-entity>
@@ -287,7 +219,7 @@ standard; transparent: false; color: #FFFFFF;  side: front; " shadow="receive:
 false; cast: false;" >
 </a-entity>
 
-<a-entity id="baseFloor " geometry="primitive: plane; width:4.595481; height:4.9485; depth:1;" position="-0.006 2.299 14.29" rotation="0 0 90" material="shader: 
+<a-entity id="baseFloor " geometry="primitive: plane; width:1.456212; height:4.9485; depth:1;" position="-0.006 3.8686 14.29" rotation="0 0 90" material="shader: 
 standard; transparent: false; color: #FFFFFF; src: #wood; repeat: 1 4; offset: 0 0;  side: double; " shadow="receive: 
 false; cast: false;" >
 </a-entity>
@@ -352,8 +284,8 @@ standard; transparent: false; color: #FFFFFF;  side: front; " shadow="receive:
 false; cast: false;" >
 </a-entity>
 
-<a-entity id=" " geometry="primitive: plane; width:2.5; height:27.46795; depth:1;" position="3.71 4.6009 0.5657997" rotation="90 0 0" material="shader: 
-standard; transparent: false; color: #FFFFFF; src: #carpet; repeat: 4 40; offset: 0 0;  side: front; " shadow="receive: 
+<a-entity id=" " geometry="primitive: plane; width:2.5; height:27.46795; depth:1;" n-mesh-collider='type: environment' position="3.71 4.6009 0.5657997" rotation="90 0 0" material="shader: 
+standard; transparent: false; color: #FFFFFF; src: #carpet; repeat: 4 40; offset: 0 0;  side: double; " shadow="receive: 
 false; cast: false;" >
 </a-entity>
 
@@ -442,8 +374,8 @@ standard; transparent: false; color: #FFFFFF; src: #windowTexture; repeat: 1 2; 
 false; cast: false;" >
 </a-entity>
 
-<a-entity id=" " geometry="primitive: plane; width:2.5; height:27.46795; depth:1;" position="-3.71 4.6009 0.5657997" rotation="90 0 0" material="shader: 
-standard; transparent: false; color: #FFFFFF; src: #carpet; repeat: 4 40; offset: 0 0;  side: front; " shadow="receive: 
+<a-entity id=" " geometry="primitive: plane; width:2.5; height:27.46795; depth:1;" n-mesh-collider='type: environment' position="-3.71 4.6009 0.5657997" rotation="90 0 0" material="shader: 
+standard; transparent: false; color: #FFFFFF; src: #carpet; repeat: 4 40; offset: 0 0;  side: double; " shadow="receive: 
 false; cast: false;" >
 </a-entity>
 
@@ -606,6 +538,10 @@ false; cast: false;" >
 standard; transparent: false; color: #FFFFFF; src: #wall; repeat: 1 10; offset: 0 0;  side: front; " shadow="receive: 
 false; cast: false;" >
 </a-entity>
+<a-entity position=" -0.94 5.09 14.83" n-portal='targetEntity: #firstFloor'></a-entity>
+<a-entity position=" 1.27 0.5 13.79" n-portal='targetEntity: #secondFloor'></a-entity>
+<a-entity id="secondFloor" position="1.33 5.12 14.82"><a-entity>
+<a-entity id="firstFloor" position="-0.95 0.51 13.79"><a-entity>
 
 </a-scene>
 </body>
